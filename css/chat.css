@@ -107,11 +107,11 @@
 .message {
   display: flex;
   align-items: flex-start;
-  width: 50%;
+  max-width: 50%;
   margin-bottom: 20px;
 }
-.message .massage__content {
-  width: 80%;
+.message .message__content {
+  max-width: 80%;
 }
 .incoming-message {
   align-self: flex-start;
@@ -130,6 +130,7 @@
   border-radius: 50%;
   margin-right: 15px;
   animation: spin 1s linear infinite;
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 5px;
 }
 .incoming-message .message__author {
   font-weight: 600;
@@ -150,7 +151,7 @@
   padding: 10px 20px;
   border-radius: 20px;
   color: white;
-  display: block;
+  display: inline-block;
 }
 .incoming-message .message__bubble {
   border-top-left-radius: 0;

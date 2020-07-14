@@ -32,6 +32,7 @@
 }
 .friend__avatar.m-avatar {
   width: 60px;
+  height: 60px;
 }
 
 .friend .friend__column {
@@ -76,4 +77,20 @@
   justify-content: center;
   align-items: center;
   border-radius: 5px;
+}
+.friend .column-right {
+  flex-direction: column;
+}
+.friend .friend__badge {
+  align-self: flex-end;
+  background-color: #dc5d46;
+  color: white;
+  font-size: 10px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
 }
