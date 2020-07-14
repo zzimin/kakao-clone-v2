@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats | Kakao Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">13:54</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="stutus-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="header__title">Chats</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="far fa-comment"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-cog"></i>
+        </span>
+      </div>
+    </header>
+    <main class="chats">
+      <ul class="chats__list">
+        <li class="chats__chat chat">
+          <a href="chat.html">
+            <div class="chats__chat friend">
+              <div class="friend__column">
+                <img src="images/vavatar.jpg" class="m-avatar friend__avatar" />
+                <div class="friend__content">
+                  <span class="friend__name">Taehyung</span>
+                  <span class="friend__bottom-text">Hey~~Congrats!</span>
+                </div>
+              </div>
+              <div class="friend__column">
+                <div class="friend__timestamp">
+                  <span class="chat__timestamp">12:22</span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="chats__chat chat">
+          <a href="chat_second.html">
+            <div class="chats__chat friend">
+              <div class="friend__column">
+                <img src="images/cavill.jpg" class="m-avatar friend__avatar" />
+                <div class="friend__content">
+                  <span class="friend__name">Henry Cavill</span>
+                  <span class="friend__bottom-text">Hello?</span>
+                </div>
+              </div>
+              <div class="friend__column">
+                <div class="friend__timestamp">
+                  <span class="chat__timestamp">Yesterday</span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-items">
+          <a href="friends.html" class="nav__list-link">
+            <i class="far fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-items">
+          <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">5</div>
+            <i class="fas fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__list-items">
+          <a href="find.html" class="nav__list-link">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+        <li class="nav__list-items">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="bigscreen">
+      <span class="bigscreen__title">Please make your screen small!</span>
+    </div>
+  </body>
+</html>
